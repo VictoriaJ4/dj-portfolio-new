@@ -1,0 +1,30 @@
+.main-box {
+	background-color: #233449;
+}
+
+.footer-row {
+	width: 1300px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.logo-text {
+	text-align: left;
+}
+.copyright-text {
+	font-size: 10px;
+	color: grey;
+}
+.title-text-foot{
+	font-weight: 800;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+	.logo-text {
+		text-align: center;
+	}
+	.title-text-foot{
+		font-weight: 800;
+	}
+}
+

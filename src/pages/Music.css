@@ -1,0 +1,49 @@
+.music-main {
+	background-color: #233449;
+	height: 600px;
+}
+.portrait-merch {
+	width: 300px;
+}
+.music-iframe {
+	margin-bottom: 20px; /* Adjust the bottom margin as needed */
+	padding-right: 20px;
+}
+
+.music-tracks {
+	padding-top: 20px;
+}
+
+.live-vid {
+	font-weight: 900;
+	font-size: 50px; /* Corrected property */
+	font-style: normal;
+
+	line-height: 54px;
+	text-decoration: none;
+	text-transform: uppercase;
+	/* font-family: Montserrat; */
+	letter-spacing: 0;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+	.live-vid {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.music-main {
+		height: 500px;
+	}
+}
+
+/* tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+	.live-vid {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.music-main {
+		height: 500px;
+	}
+}

@@ -1,0 +1,90 @@
+import React from "react";
+import "./Footer.css";
+
+//icon
+import soundcloud from "../icons/soundcloud.png";
+
+const Footer = () => {
+	const openInNewTab = (url) => {
+		window.open(url, "_blank", "noreferrer");
+	};
+
+	return (
+		<div>
+			<footer className="navbar justify-content-center main-box">
+				<div className="row footer-row">
+					<div className="col-6 col-md-6 col-lg-4">
+						<p className="text-white logo-text">LOGO</p>
+					</div>
+
+					<div className="col-6 col-md-6 col-lg-2 ">
+						<p className="text-white title-text-foot">MANAGEMENT</p>
+						<p className="text-white">email@email.com</p>
+
+						<p className="text-white">BOOKINGS</p>
+						<p className="text-white">email@email.com</p>
+					</div>
+
+					<div className="col-6 col-md-6 col-lg-2 ">
+						<p className="text-white title-text-foot">SHORTS</p>
+						<p className="text-white">About</p>
+						<p className="text-white">Music</p>
+						<p className="text-white">News</p>
+						<p className="text-white">Merchantise</p>
+						<p className="text-white">Contact</p>
+					</div>
+
+					<div className="col-6 col-md-6 col-lg-2 ">
+						<p className="text-white title-text-foot">SOCIAL MEDIA</p>
+						<div className="d-flex flex-column">
+							<i
+								className="bi bi-instagram"
+								onClick={() =>
+									openInNewTab(
+										"https://instagram.com/dirty_mindofficial?igshid=MzMyNGUyNmU2YQ== "
+									)
+								}
+							></i>
+							<i
+								className="bi bi-facebook"
+								onClick={() =>
+									openInNewTab(
+										"https://m.facebook.com/profile.php/?id=100000056558185 "
+									)
+								}
+							></i>
+							<i
+								className="bi bi-tiktok"
+								onClick={() =>
+									openInNewTab(
+										"https://www.tiktok.com/@dirty_mindofficial?ug_source=op.auth&ug_term=Linktr.ee&utm_source=awyc6vc625ejxp86&utm_campaign=tt4d_profile_link&_r=1"
+									)
+								}
+							></i>
+							<div className="d-flex flex-column align-items-center">
+								<img
+									src={soundcloud}
+									// className="socialmedia"
+									alt="social media icon of sound cloud"
+									style={{ width: 20 }}
+									onClick={() =>
+										openInNewTab("https://soundcloud.com/piotr-dobek")
+									}
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+				{/* COPYRIGHT */}
+				<div className="col-2 ">
+					<p className="  copyright-text">© 2023 Copyright: Dirty mind</p>
+				</div>
+				<div className="col-2">
+					<p className=" copyright-text"> Website Development: Victoria J.</p>
+				</div>
+			</footer>
+		</div>
+	);
+};
+
+export default Footer;

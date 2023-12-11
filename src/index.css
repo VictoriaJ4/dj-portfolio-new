@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+  font-family: Montserrat, sans-serif; /* Change the font-family to Montserrat */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #212529;
+}
+
+code {
+	font-family: Montserrat, monospace;
+}

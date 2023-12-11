@@ -1,0 +1,61 @@
+/* .News .swiper-button-prev,
+.News .swiper-button-next {
+	background-color: red !important;
+	position: absolute !important;
+	top: 50%;
+	width: auto;
+	height: auto;
+	margin-top: -15px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.swiper-button-prev {
+	left: 10px;
+}
+
+.swiper-button-next {
+	right: 10px;
+	color: white;
+}
+.swiper {
+	width: 600px;
+	height: 300px;
+} */
+.News {
+	height: 600px;
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.news-text {
+	margin: 40px 0px 40px 0px;
+	text-align: left;
+}
+/* mobile */
+@media (max-width: 768px) {
+	.News {
+		height: 500px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	
+	}
+	.news-text {
+		margin: 10px 0px 10px 0px;
+		
+	}
+}
+/* tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+	.News {
+		height: 500px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	
+	}
+	.news-text {
+		margin: 10px 0px 10px 0px;
+		
+	}
+}

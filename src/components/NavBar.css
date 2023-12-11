@@ -1,0 +1,42 @@
+.box-width {
+	width: 1000px;
+}
+.bi:hover {
+	cursor: pointer;
+	color: #f0ebd8;
+}
+.socialmedia:hover {
+	cursor: pointer;
+	color: #f0ebd8;
+}
+.nav-buttons {
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 19.5px; /* 150% */
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin-left: 25px;
+}
+
+.nav-buttons:hover {
+	cursor: pointer;
+}
+
+.icons i {
+	margin-right: 10px; /* Adjust the margin to increase the spacing between icons */
+}
+
+.socialmedia {
+	margin-right: 10px; /* Add margin to the soundcloud icon if needed */
+}
+.navbar-toggler {
+	margin-right: 15px;
+	color: white;
+}
+.navbar-toggler-icon {
+	color: white;
+}
