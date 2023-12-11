@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - news page 2
 - styling
+-logo from Dobek
+-news
+-deploy
+-news second page????? how will that look ? 
 
 
 ## Available Scripts
