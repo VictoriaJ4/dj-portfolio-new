@@ -11,6 +11,7 @@ import Music from "./pages/Music.js";
 import News from "./pages/News.js";
 import NavBar from "./components/NavBar.js";
 import Footer from "./components/Footer.js";
+import NewsDetails from "./pages/NewsDetails.js";
 
 function App() {
 	return (
@@ -44,6 +45,7 @@ function App() {
 
 					<Route path="/music" element={<Music></Music>}></Route>
 					<Route path="/news" element={<News></News>}></Route>
+					<Route path="/news/:id" element={<NewsDetails />}></Route>
 				</Routes>
 
 				<footer>
