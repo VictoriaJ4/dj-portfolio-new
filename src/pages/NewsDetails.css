@@ -1,3 +1,15 @@
 .return-circle{
 	color: antiquewhite;
+    margin-left: 30px;
+	font-size: 2em; 
+}
+.news-main-img{
+	width:800px;
+	display: block; /* Ensures the image is treated as a block-level element */
+	margin: 0 auto; /* Center horizontally */
+}
+.main-newsdetails{
+	width:800px;
+	text-align: center; /* Center-align text */
+  margin: 0 auto; /* Center horizontally */
 }
