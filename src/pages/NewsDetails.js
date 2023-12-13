@@ -1,6 +1,7 @@
 import React from 'react'
 import NewsData from './NewsData.js'
 import { useParams } from 'react-router-dom';
+import "./NewsDetails.css"
 
 
 const NewsDetails = ({ match }) => {
@@ -21,10 +22,19 @@ const NewsDetails = ({ match }) => {
 
   return (
     <div>
+      <nav className="navbar navbar-light">
+  <a className="navbar-brand" href="#">
+      <i className="bi bi-arrow-left-circle-fill return-circle"></i>
+   
+  </a>
+</nav>
+
         <h1 className="text-white">Main paige for news</h1>
         <h2>{selectedNews.title}</h2>
       <img src={selectedNews.imageUrl} alt={selectedNews.title} />
       <p>{selectedNews.content}</p>
+
+
     </div>
   )
 }
