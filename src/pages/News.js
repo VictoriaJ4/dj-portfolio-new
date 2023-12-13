@@ -51,6 +51,7 @@ const News = () => {
 						<SwiperSlide key={index}>
 							<div className={`${showExtraCards ? "extra-slide" : ""}`}>
 								<Card
+								 id={index + 1} 
 									imageUrl={party1}
 									title={slideContent}
 									text="Some quick example text to build on the card title and make up
