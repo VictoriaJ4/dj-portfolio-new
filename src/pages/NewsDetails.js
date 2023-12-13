@@ -30,10 +30,11 @@ const NewsDetails = ({ match }) => {
    </NavLink>
   
 </nav>
+<img className="news-main-img" src={selectedNews.imageUrl} alt={selectedNews.title} />
 <div className="main-newsdetails">
-        <img className="news-main-img" src={selectedNews.imageUrl} alt={selectedNews.title} />
-        <h2 className="text-white">{selectedNews.title}</h2>
-      <p className="text-white">{selectedNews.content}</p>
+        
+        <h2 className="text-white newsDetails-title">{selectedNews.title}</h2>
+      <p className="text-white news-text-details">{selectedNews.content}</p>
       </div>
 
     </div>

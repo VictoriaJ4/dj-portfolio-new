@@ -13,3 +13,34 @@
 	text-align: center; /* Center-align text */
   margin: 0 auto; /* Center horizontally */
 }
+/* mobile */
+@media (max-width: 768px) {
+	.return-circle{
+		
+		margin-left: 20px;
+		font-size: 1em; 
+	}
+	.news-main-img{
+		width: 100%; /* Occupy 100% of the parent container */
+	
+	}
+	.main-newsdetails{
+		width: 90%; /* Occupy 100% of the parent container */
+	}
+	.news-text-details{
+margin:30px;
+font-size: 15px;
+	}
+	.newsDetails-title{
+		margin-top:30px;
+		font-size: 20px;
+		
+			}
+}
+/* tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+	.news-main-img{
+		width: 100%; /* Occupy 100% of the parent container */
+	
+	}
+}
