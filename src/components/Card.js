@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
+import "./Card.css"
 
 const Card = ({ id,imageUrl, title, text }) => {
 	const navigate = useNavigate();
@@ -20,7 +21,7 @@ const Card = ({ id,imageUrl, title, text }) => {
 				<h5 className="card-title">{title}</h5>
 				<p className="card-text">{text}</p>
 				<Link to={`/news/${id}`}>
-				 <a href="#" className="btn btn-primary">
+				 <a href="#" className="btn btn-light readMore-btn">
           Read more
         </a>
 		</Link>

@@ -61,6 +61,7 @@ const Footer = () => {
 									)
 								}
 							></i>
+							
 							<div className="d-flex flex-column align-items-center">
 								<img
 									src={soundcloud}

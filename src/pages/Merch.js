@@ -8,13 +8,13 @@ import AnimatedText from "../components/AnimatedText.js";
 const Merch = () => {
 	return (
 		<div id="Merch" className="merch-main">
-			<div class="container text-center">
-				<div class="row">
-					<div class="col">
+			<div className="container text-center">
+				<div className="row">
+					<div className="col">
 						<h4 className="text-white title-merch">Merchandise</h4>
 						<AnimatedText></AnimatedText>
 					</div>
-					<div class="col">
+					<div className="col">
 						<img
 							src={piotr}
 							className="portrait-merch"
