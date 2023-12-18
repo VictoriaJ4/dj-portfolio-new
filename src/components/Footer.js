@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 //icon
 import soundcloud from "../icons/soundcloud.png";
@@ -61,7 +62,7 @@ const Footer = () => {
 									)
 								}
 							></i>
-							
+						<FontAwesomeIcon icon="fa-brands fa-soundcloud" style={{color: "#fafafa",}} />
 							<div className="d-flex flex-column align-items-center">
 								<img
 									src={soundcloud}
