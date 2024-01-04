@@ -3,8 +3,6 @@ import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { Link } from "react-scroll";
 
-//icon
-import soundcloud from "../icons/soundcloud.png";
 
 const NavBar = () => {
 	const openInNewTab = (url) => {
@@ -117,14 +115,11 @@ const NavBar = () => {
 									)
 								}
 							></i>
-							<img
-								src={soundcloud}
-								className="socialmedia"
-								alt="social media icon of sound cloud"
-								onClick={() =>
-									openInNewTab("https://soundcloud.com/piotr-dobek")
-								}
-							/>
+							<i className="fa-brands fa-soundcloud " onClick={() =>
+										openInNewTab("https://soundcloud.com/piotr-dobek")}
+										alt="social media icon of sound cloud"
+									
+										></i>
 						</div>
 					</div>
 				</div>

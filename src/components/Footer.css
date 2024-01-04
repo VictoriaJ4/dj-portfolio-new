@@ -17,7 +17,16 @@
 .title-text-foot{
 	font-weight: 800;
 }
-
+.fa-soundcloud:hover {
+	cursor: pointer;
+	color: #f0ebd8;
+}
+.fa-soundcloud{
+	color:white;
+}
+.bi{
+	color:white;
+}
 /* mobile */
 @media (max-width: 768px) {
 	.logo-text {

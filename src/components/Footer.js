@@ -1,9 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-//icon
-import soundcloud from "../icons/soundcloud.png";
+
 
 const Footer = () => {
 	const openInNewTab = (url) => {
@@ -62,17 +60,15 @@ const Footer = () => {
 									)
 								}
 							></i>
-						<FontAwesomeIcon icon="fa-brands fa-soundcloud" style={{color: "#fafafa",}} />
+							
+						
 							<div className="d-flex flex-column align-items-center">
-								<img
-									src={soundcloud}
-									// className="socialmedia"
-									alt="social media icon of sound cloud"
-									style={{ width: 20 }}
-									onClick={() =>
-										openInNewTab("https://soundcloud.com/piotr-dobek")
-									}
-								/>
+							
+							<i className="fa-brands fa-soundcloud " onClick={() =>
+										openInNewTab("https://soundcloud.com/piotr-dobek")}
+										alt="social media icon of sound cloud"
+									
+										></i>
 							</div>
 						</div>
 					</div>

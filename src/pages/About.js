@@ -7,10 +7,10 @@ import piotr from "../img/piotr.png";
 
 const About = () => {
 	const texts = [
-		"Piotr Dobek/Dirty Mind (formerly Revision) was born in Poland (Zabrze) on August 14th, 1987. For the first time, he heard Hardstyle music at the age of 15 when his friends showed him a recording of qlimax.",
-		"He fell in love with this genre so much that he decided to learn to play and try his hand at music production. He bought his first console in 2012 and started learning how to play.",
-		"He started attending DJ lessons to improve his skills, and he was advised against playing this genre due to its low popularity in the country. Despite everything, at home, he perfected his playing technique.",
-		"The greatest success was the opportunity to play an opening set in Energy2000 where the special guest was Rebellion. One day, DiamondSkull noticed him and decided to help his career and give some very important tips",
+		"ReQon is a renowned hardstyle artist known for crafting energetic and impactful sets within the hard dance music scene. With a signature blend of pounding kicks, euphoric melodies, and intricate sound design.",
+		"His performances often feature a dynamic mix of Raw / Rtra Raw hardstyle anthems and cutting-edge tracks, creating an electrifying atmosphere that resonates with fans. ",
+		"DJ ReQon, like many artists, stands for individual expression, artistic innovation, and a passion for the hardstyle genre. His music reflects a commitment to pushing boundaries within the electronic dance music scene, blending powerful beats with emotive melodies. ",
+		"Additionally, artists often stand for values such as unity, self-expression, and the shared experience of music, fostering a sense of community among fans. While specific personal beliefs or values may vary, the core of what ReQon represents is likely rooted in the creative and transformative power of music.",
 	];
 
 	const [currentTextIndex, setCurrentTextIndex] = useState(0);
