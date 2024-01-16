@@ -83,5 +83,27 @@
 }
 /* tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
+	.contact-text {
+		margin-bottom: 10px;
+		font-size: 35px;
+		font-style: normal;
+		font-weight: 700;
+	
+	}
+	.first-text {
+		/* text-align: left; */
+		margin: 5px 5px 5px 5px;
+	}
+	.contact-box {
+	
+		height: auto; /* Adjust height for mobile screens */
+		padding:20px
+		
+	}
+	.contact-small-text {
+		
+		margin-top: 10px;
+		font-size: 15px;
 
+	}
 }

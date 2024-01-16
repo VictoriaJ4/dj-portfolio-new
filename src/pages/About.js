@@ -59,7 +59,7 @@ const About = () => {
 								{texts[currentTextIndex]}
 							</p>
 							<button className="cta-button " onClick={handleButtonClick}>
-								Read more <i class="bi bi-arrow-right-circle"></i>
+								Read more <i className="bi bi-arrow-right-circle"></i>
 							</button>
 						</div>
 					</div>
