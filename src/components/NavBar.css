@@ -40,3 +40,14 @@
 .navbar-toggler-icon {
 	color: white;
 }
+.logo-white{
+	padding-top:10px;
+	width:150px;
+}
+/* mobile */
+@media (max-width: 768px) {
+	.logo-white{
+		padding-top:10px;
+		width:70px;
+	}
+}

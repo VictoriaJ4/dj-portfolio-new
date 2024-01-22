@@ -78,7 +78,7 @@ const Footer = () => {
 					<p className="  copyright-text">© 2023 Copyright: Dirty mind</p>
 				</div>
 				<div className="col-2">
-					<p className=" copyright-text"> Website Development: Victoria J.</p>
+					<p className=" copyright-text"> Website Development: <a href="https://main--vj-webdev-portfolio.netlify.app/">Victoria J.</a></p>
 				</div>
 			</footer>
 		</div>

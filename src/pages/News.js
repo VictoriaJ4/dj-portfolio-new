@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import "./News.css";
 // import Swiper from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 // import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";

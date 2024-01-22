@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { Link } from "react-scroll";
 
+//logo
+import logo from "../img/Reqon-Logo-White.png"
 
 const NavBar = () => {
 	const openInNewTab = (url) => {
@@ -14,7 +16,8 @@ const NavBar = () => {
 			<nav className="navbar navbar-expand-lg custom-navbar">
 				<div className="container-fluid box-width">
 					<NavLink to="/">
-						<p className="navbar-brand text-white">Logo</p>
+						{/* <p className="navbar-brand text-white">Logo</p> */}
+						<img src={logo}  className="logo-white"></img>
 					</NavLink>
 					<button
 						className="navbar-toggler"

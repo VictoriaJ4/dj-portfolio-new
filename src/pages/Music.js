@@ -41,7 +41,7 @@ const Music = () => {
 					<div className="col-12 col-lg-4">
 						<h2 className="text-white live-vid">Music</h2>
 					</div>
-					<div className="col-12 col-lg-8 music-tracks">{iframes}</div>
+					<div className="col-12 col-lg-8 music-tracks" title={iframes}>{iframes}</div>
 				</div>
 			</div>
 		</div>
