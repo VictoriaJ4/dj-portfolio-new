@@ -2,6 +2,8 @@ import React from "react";
 import "./Footer.css";
 
 
+//logo
+import logo from "../img/Reqon-Logo-White.png"
 
 const Footer = () => {
 	const openInNewTab = (url) => {
@@ -13,7 +15,7 @@ const Footer = () => {
 			<footer className="navbar justify-content-center main-box">
 				<div className="row footer-row">
 					<div className="col-6 col-md-6 col-lg-4">
-						<p className="text-white logo-text">LOGO</p>
+					<img src={logo}  className="logo-white"></img>
 					</div>
 
 					<div className="col-6 col-md-6 col-lg-2 ">
