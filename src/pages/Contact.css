@@ -84,20 +84,19 @@
 /* tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
 	.contact-text {
-		margin-bottom: 10px;
-		font-size: 35px;
-		font-style: normal;
-		font-weight: 700;
-	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center; /* Center text within contact box */
 	}
 	.first-text {
-		/* text-align: left; */
+		/* text-align: center; */
 		margin: 5px 5px 5px 5px;
 	}
 	.contact-box {
 	
 		height: auto; /* Adjust height for mobile screens */
-		padding:20px
+		padding:30px
 		
 	}
 	.contact-small-text {
@@ -106,4 +105,11 @@
 		font-size: 15px;
 
 	}
+	.form-group {
+		text-align: center; /* Center text in form group for tablet */
+	  }
+	  .whole-form {
+		margin: 0 auto; /* Center the form horizontally within the contact box */
+	  }
+	
 }

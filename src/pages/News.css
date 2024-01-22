@@ -45,6 +45,7 @@
 		margin: 10px 0px 10px 0px;
 		
 	}
+
 }
 /* tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -57,5 +58,9 @@
 	.news-text {
 		margin: 10px 0px 10px 0px;
 		
+	}
+	.News .swiper-button-prev,
+	.News .swiper-button-next  {
+		display: none !important ;
 	}
 }

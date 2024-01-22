@@ -8,8 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -logo from Dobek
 -deploy
 -footer social media
--news tablet version + no arrows
--contact me tablet version
+
+
 
 
 ## Available Scripts

@@ -42,7 +42,7 @@ const News = () => {
 					 breakpoints={{
 					   // when window width is >= 768px (for example, tablets and larger screens)
 					   768: {
-						 slidesPerView: 3,
+						 slidesPerView: 2,
 					   },
 					 }}
 				   

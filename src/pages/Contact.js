@@ -35,7 +35,7 @@ const Contact = () => {
 			<div className="contact-box">
 				<div className="contact-content">
 					<div className="row">
-						<div className="col-12 col-md-6 col-lg-6  first-text">
+						<div className="col-12 col-md-6 col-lg-6  first-text mx-auto">
 							<h4 className="contact-text">Contact me!</h4>
 							<div className="vertical-line"></div>
 							<p className="contact-small-text">
@@ -45,7 +45,7 @@ const Contact = () => {
 							</p>
 						</div>
 
-						<div className="col-12 col-md-6 col-lg-5 ">
+						<div className="col-12 col-md-6 col-lg-5 mx-auto">
 							<form className="whole-form" ref={form} onSubmit={sendEmail}>
 								<div className="form-group">
 									<label for="exampleInputEmail1">Name</label>
