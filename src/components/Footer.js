@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-scroll";
 
 
 //logo
@@ -20,19 +21,50 @@ const Footer = () => {
 
 					<div className="col-6 col-md-6 col-lg-2 ">
 						<p className="text-white title-text-foot">MANAGEMENT</p>
-						<p className="text-white">email@email.com</p>
-
-						<p className="text-white">BOOKINGS</p>
-						<p className="text-white">email@email.com</p>
+						<p className="text-white"><a className="management-email"href="mailto:reqonmusic@gmail.com">reqonmusic@gmail.com</a></p>
 					</div>
 
 					<div className="col-6 col-md-6 col-lg-2 ">
 						<p className="text-white title-text-foot">SHORTS</p>
-						<p className="text-white">About</p>
-						<p className="text-white">Music</p>
-						<p className="text-white">News</p>
-						<p className="text-white">Merchantise</p>
-						<p className="text-white">Contact</p>
+						<Link
+									to="About"
+									spy={true}
+									smooth={true}
+									duration={500}
+								><p className="text-white">About</p></Link>
+								<Link
+									to="Music"
+									spy={true}
+									smooth={true}
+									offset={0}
+									duration={500}
+									
+								><p className="text-white">Music</p></Link>
+						<Link
+									to="News"
+									spy={true}
+									smooth={true}
+									offset={0}
+									duration={500}
+								
+								>	<p className="text-white">News</p></Link>
+					<Link
+									to="Merch"
+									spy={true}
+									smooth={true}
+									offset={0}
+									duration={500}
+									
+								><p className="text-white">Merchandise</p></Link>
+						<Link
+									to="Contact"
+									spy={true}
+									smooth={true}
+									offset={0}
+									duration={500}
+									
+								><p className="text-white">Contact</p></Link>
+						
 					</div>
 
 					<div className="col-6 col-md-6 col-lg-2 ">

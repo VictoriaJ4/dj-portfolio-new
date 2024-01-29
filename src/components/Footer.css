@@ -27,6 +27,9 @@
 .bi{
 	color:white;
 }
+.management-email{
+color:white;
+}
 /* mobile */
 @media (max-width: 768px) {
 	.logo-text {

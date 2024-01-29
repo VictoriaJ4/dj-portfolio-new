@@ -78,6 +78,7 @@ const Contact = () => {
 										id="typePhone"
 										class="form-control"
 										name="user_phone"
+										placeholder="Enter phone number"
 									/>
 								</div>
 
