@@ -4,7 +4,7 @@ import React from "react";
 import "./Music.css";
 
 const Music = () => {
-	const generateIframe = (trackUrl) => (
+	const generateIframe = (trackUrl , index) => (
 		<iframe
 			className="music-iframe"
 			width="50%"
@@ -12,6 +12,7 @@ const Music = () => {
 			scrolling="no"
 			frameBorder="no"
 			allow="autoplay"
+			title={`SoundCloud Track ${index + 1}`} // Add a unique title for each iframe
 			src={`https://w.soundcloud.com/player/?url=${encodeURIComponent(
 				trackUrl
 			)}&{ ADD YOUR PARAMETERS HERE }`}
@@ -26,7 +27,7 @@ const Music = () => {
 		"https://api.soundcloud.com/tracks/1557021136",
 		"https://api.soundcloud.com/tracks/1552521283",
 	];
-	const iframes = trackUrls.map(generateIframe);
+	const iframes = trackUrls.map((trackUrl, index) => generateIframe(trackUrl, index));
 
 	return (
 		<div id="Music" className="music-main">

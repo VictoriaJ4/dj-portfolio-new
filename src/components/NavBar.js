@@ -17,7 +17,7 @@ const NavBar = () => {
 				<div className="container-fluid box-width">
 					<NavLink to="/">
 						{/* <p className="navbar-brand text-white">Logo</p> */}
-						<img src={logo}  className="logo-white"></img>
+						<img src={logo}  className="logo-white" alt="reqon music logo"></img>
 					</NavLink>
 					<button
 						className="navbar-toggler"

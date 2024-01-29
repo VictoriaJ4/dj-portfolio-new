@@ -9,6 +9,8 @@ import "swiper/css/pagination";
 import Card from "../components/Card.js";
 import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useEffect } from 'react';
+
 //img
 import party1 from "../img/party.jpg";
 const maxSlides = 6;
@@ -20,6 +22,12 @@ const News = () => {
 	);
 	const [showExtraCards, setShowExtraCards] = useState(false);
 
+	useEffect(() => {
+		// Log the slides when the component mounts
+		console.log('Slides:', slides);
+	  }, [slides]); // Make sure to include slides in the dependency array
+ 
+	  
 	const toggleExtraCards = () => {
 		console.log("Before toggle:", showExtraCards);
 		setShowExtraCards(!showExtraCards);

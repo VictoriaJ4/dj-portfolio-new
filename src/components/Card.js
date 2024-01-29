@@ -21,9 +21,9 @@ const Card = ({ id,imageUrl, title, text }) => {
 				<h5 className="card-title">{title}</h5>
 				<p className="card-text">{text}</p>
 				<Link to={`/news/${id}`}>
-				 <a href="#" className="btn btn-light readMore-btn">
+				 <p  className="btn btn-light readMore-btn">
           Read more
-        </a>
+        </p>
 		</Link>
 			</div>
 		</div>

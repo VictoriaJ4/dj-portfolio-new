@@ -16,7 +16,7 @@ const Footer = () => {
 			<footer className="navbar justify-content-center main-box">
 				<div className="row footer-row">
 					<div className="col-6 col-md-6 col-lg-4">
-					<img src={logo}  className="logo-white"></img>
+					<img src={logo}  className="logo-white" alt="reqon music logo"></img>
 					</div>
 
 					<div className="col-6 col-md-6 col-lg-2 ">
