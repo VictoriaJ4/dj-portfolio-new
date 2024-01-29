@@ -30,6 +30,10 @@
 .management-email{
 color:white;
 }
+
+.active{
+	text-decoration: none;
+}
 /* mobile */
 @media (max-width: 768px) {
 	.logo-text {

@@ -63,7 +63,7 @@ const Footer = () => {
 									offset={0}
 									duration={500}
 									
-								><p className="text-white">Contact</p></Link>
+								><p className="text-white contact-footer">Contact</p></Link>
 						
 					</div>
 
