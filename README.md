@@ -4,13 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## to do list
 
-- styling
--logo from Dobek
 -deploy
--footer social media
-
-
-
 
 ## Available Scripts
 
