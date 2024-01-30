@@ -47,7 +47,7 @@ const About = () => {
 						<img
 							src={piotr}
 							className="portret"
-							alt="portrait of dj dirty mind dark picture of a person"
+							alt="portrait of dj dirty mind dark "
 						/>
 					</div>
 

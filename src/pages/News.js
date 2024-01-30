@@ -32,6 +32,22 @@ const News = () => {
 		console.log("Before toggle:", showExtraCards);
 		setShowExtraCards(!showExtraCards);
 		console.log("After toggle:", showExtraCards);
+
+		setSlides((prevSlides) => {
+			if (showExtraCards) {
+			  // Add extra slides when extra cards are shown
+			  return [
+				...prevSlides,
+				`Extra Slide ${prevSlides.length + 1}`,
+				`Extra Slide ${prevSlides.length + 2}`,
+			  ];
+			} else {
+			  // Revert to the original set of slides when extra cards are hidden
+			  return Array.from({ length: maxSlides }).map(
+				(_, index) => `Slide ${index + 1}`
+			  );
+			}
+		});
 	};
 
 	return (
