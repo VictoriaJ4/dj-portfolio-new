@@ -5,6 +5,8 @@ const NewsData = [
       imageUrl: "/newsImages/pic1.jpg",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget semper urna, sit amet maximus purus. Mauris et feugiat dui. Proin pulvinar dolor eu tortor ornare egestas. Proin fermentum facilisis augue, et imperdiet sem tristique sed. Donec nec arcu elit. Vestibulum viverra est quis urna ultricies, a dignissim arcu sagittis. Sed commodo enim sed arcu congue, in pretium elit viverra.",
     },
+    // Images are uploaded in public folder "public/newsImages". Remember to compress all of them before uploading 
+    //Cards need to use the same images from oublic folder not hard coded!! (not done yet)
     {
       id: 2,
       title: "News 2",
