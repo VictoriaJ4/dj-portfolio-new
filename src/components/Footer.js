@@ -31,7 +31,7 @@ const Footer = () => {
 									spy={true}
 									smooth={true}
 									duration={500}
-								><p className="text-white">About</p></Link>
+								><p className="text-white footer-buttons">About</p></Link>
 								<Link
 									to="Music"
 									spy={true}
@@ -39,7 +39,7 @@ const Footer = () => {
 									offset={0}
 									duration={500}
 									
-								><p className="text-white">Music</p></Link>
+								><p className="text-white footer-buttons">Music</p></Link>
 						<Link
 									to="News"
 									spy={true}
@@ -47,7 +47,7 @@ const Footer = () => {
 									offset={0}
 									duration={500}
 								
-								>	<p className="text-white">News</p></Link>
+								>	<p className="text-white footer-buttons">News</p></Link>
 					<Link
 									to="Merch"
 									spy={true}
@@ -55,7 +55,7 @@ const Footer = () => {
 									offset={0}
 									duration={500}
 									
-								><p className="text-white">Merchandise</p></Link>
+								><p className="text-white footer-buttons">Merchandise</p></Link>
 						<Link
 									to="Contact"
 									spy={true}
@@ -63,7 +63,7 @@ const Footer = () => {
 									offset={0}
 									duration={500}
 									
-								><p className="text-white contact-footer">Contact</p></Link>
+								><p className="text-white contact-footer footer-buttons">Contact</p></Link>
 						
 					</div>
 
@@ -109,7 +109,7 @@ const Footer = () => {
 				</div>
 				{/* COPYRIGHT */}
 				<div className="col-2 ">
-					<p className="  copyright-text">© 2024 Copyright: Dirty mind</p>
+					<p className="  copyright-text">© 2024 Copyright: Reqon</p>
 				</div>
 				<div className="col-2">
 					<p className=" copyright-text"> Website Development: <a href="https://main--vj-webdev-portfolio.netlify.app/">Victoria J.</a></p>
