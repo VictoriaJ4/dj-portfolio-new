@@ -20,7 +20,7 @@ const NavBar = () => {
 						<img src={logo}  className="logo-white" alt="reqon music logo"></img>
 					</NavLink>
 					<button
-						className="navbar-toggler"
+						className="navbar-toggler hamburger"
 						type="button"
 						data-bs-toggle="collapse"
 						data-bs-target="#navbarNav"
@@ -118,7 +118,7 @@ const NavBar = () => {
 									)
 								}
 							></i>
-							<i className="fa-brands fa-soundcloud " onClick={() =>
+							<i className="fa-brands fa-soundcloud socialmedia" onClick={() =>
 										openInNewTab("https://soundcloud.com/piotr-dobek")}
 										alt="social media icon of sound cloud"
 									
