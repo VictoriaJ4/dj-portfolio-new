@@ -92,12 +92,14 @@ const News = () => {
 
 				<div
 					className="swiper-button-prev d-none d-md-block"
-					style={{ left: "40px", top: "335%" }}
+					id="slider-arrows"
+					style={{ left: "40px", top: "338%" }}
 				></div>
 				<div
 					className="swiper-button-next d-none d-md-block"
 					onClick={toggleExtraCards}
-					style={{ right: "60px", top: "335%" }}
+					id="slider-arrows"
+					style={{ right: "60px", top: "338%" }}
 				></div>
 			</div>
 		</div>

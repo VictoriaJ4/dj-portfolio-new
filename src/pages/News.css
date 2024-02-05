@@ -33,6 +33,10 @@
 	margin: 40px 0px 40px 0px;
 	text-align: left;
 }
+#slider-arrows{
+	color:#7158e2;
+
+}
 /* mobile */
 @media (max-width: 768px) {
 	.News {
