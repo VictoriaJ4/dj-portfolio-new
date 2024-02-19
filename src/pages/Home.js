@@ -4,6 +4,8 @@ import "./Home.css";
 import NavBar from "../components/NavBar.js"
 import { Link } from "react-scroll";
 
+
+
 // components & pages
 import About from "./About.js";
 import Contact from "./Contact.js";
@@ -12,6 +14,8 @@ import Music from "./Music.js";
 import News from "./News.js";
 
 const Home = () => {
+	
+	  
 	return (
 		<>
 		<div>
@@ -25,7 +29,8 @@ const Home = () => {
 							spy={true}
 							smooth={true}
 							offset={-10}
-							duration={500}
+							duration={300}
+							isDynamic={true}
 						>
 							<button type="button" className="cta-button home-button">
 								Work with me
