@@ -21,7 +21,7 @@ const Footer = () => {
 
 					<div className="col-6 col-md-6 col-lg-2 ">
 						<p className="text-white title-text-foot">MANAGEMENT</p>
-						<p className="text-white"><a className="management-email"href="mailto:reqonmusic@gmail.com">reqonmusic@gmail.com</a></p>
+						<p className="text-white"><a className="management-email"href="mailto:thisisreqon@gmail.com">thisisreqon@gmail.com</a></p>
 					</div>
 
 					<div className="col-6 col-md-6 col-lg-2 ">
