@@ -38,7 +38,7 @@ const NavBar = () => {
 									to="About"
 									spy={true}
 									smooth={true}
-									className="nav-link nav-buttons text-white"
+									className="nav-link nav-buttons "
 									duration={200}
 								>
 									About
@@ -51,7 +51,7 @@ const NavBar = () => {
 									smooth={true}
 									offset={0}
 									duration={200}
-									className="nav-link  nav-buttons text-white"
+									className="nav-link  nav-buttons "
 								>
 									Music
 								</Link>
@@ -63,7 +63,7 @@ const NavBar = () => {
 									smooth={true}
 									offset={0}
 									duration={200}
-									className="nav-link  nav-buttons text-white"
+									className="nav-link  nav-buttons "
 								>
 									News
 								</Link>
@@ -75,7 +75,7 @@ const NavBar = () => {
 									smooth={true}
 									offset={-10}
 									duration={200}
-									className="nav-link  nav-buttons text-white"
+									className="nav-link  nav-buttons "
 								>
 									Merchandise
 								</Link>
@@ -87,7 +87,7 @@ const NavBar = () => {
 									smooth={true}
 									offset={0}
 									duration={200}
-									className="nav-link  nav-buttons text-white"
+									className="nav-link  nav-buttons "
 								>
 									Contact
 								</Link>

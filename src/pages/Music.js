@@ -32,12 +32,12 @@ const Music = () => {
 	return (
 		<div id="Music" className="music-main">
 			<div className="container text-center">
-				<div className="row ">
+				{/* <div className="row ">
 					<div className="col-12 col-lg-4">
 						<h2 className="text-white live-vid ">Live videos</h2>
 					</div>
 					<div className="col-12 col-lg-8">col-8</div>
-				</div>
+				</div> */}
 				<div className="row">
 					<div className="col-12 col-lg-4">
 						<h2 className="text-white live-vid">Music</h2>

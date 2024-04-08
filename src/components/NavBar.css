@@ -21,10 +21,12 @@
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 	margin-left: 25px;
+	color:antiquewhite;
 }
 
 .nav-buttons:hover {
 	cursor: pointer;
+	color: #cd84f1;
 }
 
 .icons i {
