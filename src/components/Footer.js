@@ -31,7 +31,7 @@ const Footer = () => {
 									spy={true}
 									smooth={true}
 									duration={500}
-								><p className="text-white footer-buttons">About</p></Link>
+								><p className="footer-buttons">About</p></Link>
 								<Link
 									to="Music"
 									spy={true}
@@ -39,7 +39,7 @@ const Footer = () => {
 									offset={0}
 									duration={500}
 									
-								><p className="text-white footer-buttons">Music</p></Link>
+								><p className=" footer-buttons">Music</p></Link>
 						<Link
 									to="News"
 									spy={true}
@@ -47,7 +47,7 @@ const Footer = () => {
 									offset={0}
 									duration={500}
 								
-								>	<p className="text-white footer-buttons">News</p></Link>
+								>	<p className="footer-buttons">News</p></Link>
 					<Link
 									to="Merch"
 									spy={true}
@@ -55,7 +55,7 @@ const Footer = () => {
 									offset={0}
 									duration={500}
 									
-								><p className="text-white footer-buttons">Merchandise</p></Link>
+								><p className="footer-buttons">Merchandise</p></Link>
 						<Link
 									to="Contact"
 									spy={true}
@@ -63,7 +63,7 @@ const Footer = () => {
 									offset={0}
 									duration={500}
 									
-								><p className="text-white contact-footer footer-buttons">Contact</p></Link>
+								><p className="contact-footer footer-buttons">Contact</p></Link>
 						
 					</div>
 

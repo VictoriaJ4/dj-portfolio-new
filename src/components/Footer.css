@@ -14,8 +14,12 @@
 	font-size: 10px;
 	color: grey;
 }
+.footer-buttons{
+color:antiquewhite;
+}
 .footer-buttons:hover{
 	cursor:pointer;
+	color: #cd84f1;
 }
 .title-text-foot{
 	font-weight: 800;
@@ -32,6 +36,9 @@
 }
 .management-email{
 color:white;
+}
+.management-email:hover{
+	color: #cd84f1;
 }
 
 .active{

@@ -90,7 +90,7 @@ const News = () => {
 					))}
 				</Swiper>
 
-				<div
+				{/* <div
 					className="swiper-button-prev d-none d-md-block"
 					id="slider-arrows"
 					style={{ left: "40px", top: "338%" }}
@@ -100,7 +100,7 @@ const News = () => {
 					onClick={toggleExtraCards}
 					id="slider-arrows"
 					style={{ right: "60px", top: "338%" }}
-				></div>
+				></div> */}
 			</div>
 		</div>
 	);
