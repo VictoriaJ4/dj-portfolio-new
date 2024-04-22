@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/thisi247/public_html/
-    - /bin/cp -r /home/thisi247/repositories/dj-portfolio-new/* /home/thisi247/thisisreqon.com/
+    - /bin/cp -r /home/thisi247/repositories/dj-portfolio-new/* /home/thisi247/public_html/
