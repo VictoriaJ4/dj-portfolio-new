@@ -8,13 +8,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Card from "../components/Card.js";
 import SwiperCore from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import {  Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import { useEffect } from 'react';
 
 //img
 import party1 from "../img/party.jpg";
 const maxSlides = 6;
-SwiperCore.use([Navigation]);
+SwiperCore.use([Autoplay, Navigation]);
 
 const News = () => {
 	const [slides, setSlides] = useState(
@@ -63,6 +64,11 @@ const News = () => {
 					 loop={true}
 					 loopedSlides={maxSlides}
 					 slidesPerView={1}
+					 autoplay={{
+						delay: 2500,
+						disableOnInteraction: true,
+					  }}
+					  modules={[Autoplay,  Navigation]}
 					 breakpoints={{
 					   // when window width is >= 768px (for example, tablets and larger screens)
 					   768: {
@@ -90,17 +96,17 @@ const News = () => {
 					))}
 				</Swiper>
 
-				<div
+				{/* <div
 					className="swiper-button-prev d-none d-md-block"
 					id="slider-arrows"
 					style={{ left: "40px", top: "338%" }}
-				></div>
-				<div
+				></div> */}
+				{/* <div
 					className="swiper-button-next d-none d-md-block"
 					onClick={toggleExtraCards}
 					id="slider-arrows"
 					style={{ right: "60px", top: "338%" }}
-				></div>
+				></div> */}
 			</div>
 		</div>
 	);
