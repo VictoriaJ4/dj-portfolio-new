@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/thisi247/public_html/
+    - /bin/cp * $DEPLOYPATH
+    
