@@ -7,10 +7,10 @@ import piotr from "../img/piotr.png";
 
 const About = () => {
 	const texts = [
-		"ReQon is a renowned hardstyle artist known for crafting energetic and impactful sets within the hard dance music scene. With a signature blend of pounding kicks, euphoric melodies, and intricate sound design.",
+		"REQON is a renowned hardstyle artist known for crafting energetic and impactful sets within the hard dance music scene. With a signature blend of pounding kicks, euphoric melodies, and intricate sound design.",
 		"His performances often feature a dynamic mix of Raw / Rtra Raw hardstyle anthems and cutting-edge tracks, creating an electrifying atmosphere that resonates with fans. ",
-		"DJ ReQon, like many artists, stands for individual expression, artistic innovation, and a passion for the hardstyle genre. His music reflects a commitment to pushing boundaries within the electronic dance music scene, blending powerful beats with emotive melodies. ",
-		"Additionally, artists often stand for values such as unity, self-expression, and the shared experience of music, fostering a sense of community among fans. While specific personal beliefs or values may vary, the core of what ReQon represents is likely rooted in the creative and transformative power of music.",
+		"DJ REQON, like many artists, stands for individual expression, artistic innovation, and a passion for the hardstyle genre. His music reflects a commitment to pushing boundaries within the electronic dance music scene, blending powerful beats with emotive melodies. ",
+		"Additionally, artists often stand for values such as unity, self-expression, and the shared experience of music, fostering a sense of community among fans. While specific personal beliefs or values may vary, the core of what REQON represents is likely rooted in the creative and transformative power of music.",
 	];
 
 	const [currentTextIndex, setCurrentTextIndex] = useState(0);
